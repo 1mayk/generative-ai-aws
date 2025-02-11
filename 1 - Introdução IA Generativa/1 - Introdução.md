@@ -1,4 +1,4 @@
-# A ascensão da IA
+# A Ascensão da IA
 
 Desde as primeiras concepções de máquinas que poderiam simular pensamento humano até os avanços que vemos hoje, a Inteligência Artificial tem sido uma jornada de descoberta e inovação sem paralelo.
 
