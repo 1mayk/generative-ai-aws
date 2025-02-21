@@ -8,7 +8,7 @@ A Amazon Web Services (AWS) é uma plataforma líder que oferece soluções avan
 
 - Dados + Poder Computacional = AI Generativa / ML
 
-# Machine Learning -- 14min
+# Machine Learning --- 14min
 
 - Processo onde a máquina faz uma **inferência** de uma resposta baseada nos dados que foram usados para treiná-la
 
