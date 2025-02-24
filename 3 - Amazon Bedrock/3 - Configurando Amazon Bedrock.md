@@ -72,3 +72,50 @@ Primeiramente vamos criar a política de permissão através do Policies na seç
 
 ![alt text](image-8.png)
 
+Clique no botão Create policy no canto superior direito. No passo 1 (Step 1) em Specify permissions selecione a aba JSON, coloque o código abaixo e clique em Next.
+
+![alt text](image-9.png)
+
+Policy:
+
+    {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "VisualEditor",
+                "Effect": "Allow",
+                "Action": [
+                    "bedrock:InvokeModel",
+                    "bedrock:ListCustomModels",
+                    "bedrock:ListFoundationModels"
+                ],
+                "Resource": "*"
+            }
+        ]
+    }
+
+No passo 2 (Step 2), defina um nome para a política, bedrock_policy por exemplo, e clique no botão Create policy
+
+![alt text](image-10.png)
+
+Uma vez a política criada, precisamos associá-la a um user, portanto, no menu lateral, abra o link Users. Caso você não tenha nenhum usuário, clique no botão Create user para criar um novo.
+
+Serão três novos passos, no primeiro definimos o nome do usuário
+
+![alt text](image-11.png)
+
+No segundo passo, associamos a política que acabamos de criar, para isso selecione Attach policies directly, na lista de políticas, filtre pelo nome da política que acabou de criar (bedrockpolicy), marque no checkbox e clique em _Next.
+
+![alt text](image-12.png)
+
+O terceiro passo é apenas revisão, basta clicar no botão Create user.
+
+![alt text](image-13.png)
+
+Caso você queira adicionar a nova política a um usuário já existente, basta clicar sobre o usuário desejado, seguir para aba Permission, clicar no botão Add permissions e então na opção Add permissions novamente.
+
+![alt text](image-14.png)
+
+Com isso irá aparecer a mesma tela do segundo passo da criação do novo usuário, siga as instruções acima.
+
+Agora temos tudo pronto! Já sabemos por onde iniciar o Bedrock e como criar as permissões necessárias para seu usuário AWS. Na próxima lição vamos aprender, na prática, como interagir com o Bedrock programaticamente.
