@@ -11,7 +11,7 @@ E é isso que mais impressiona, a IA treinada com um simples PDF da lei, soube i
 
 Note que ao descrever a situação, a IA entendeu que para o sistema de comandas os dados do cadastro prévio estava excedendo o necessário para a finalidade. Ou seja, a IA sabia quais dados eram necessários para o sistema de comanda, e confrontando com os dados do cadastro julgou, corretamente, a excessividade.
 
-Agora é a sua vez, tente reproduzir o código em seu ambiente e faça novas perguntas. Não deixe de compartilhar a resposta da sua IA nas nossas comunidades.
+Agora é a sua vez, tente reproduzir o código em seu ambiente e faça novas perguntas. Não deixe de compartilhar a resposta da sua IA nas nossas comunidades
 
 # Praticar - Amazon Bedrock Workshop
 
