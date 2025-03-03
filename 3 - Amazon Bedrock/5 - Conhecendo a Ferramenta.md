@@ -1,13 +1,13 @@
 # Conhecendo a Ferramenta
 
->Atenção ⚠️: O preço do Claude foi reduzido:
-O Amazon Bedrock oferece suporte a SDKs para serviços de tempo de execução. SDKs iOS e Android, bem como Java, JS, Python, CLI, .Net, Ruby, PHP, Go e CPP suportam entrada de texto e fala.
+> Atenção ⚠️: O preço do Claude foi reduzido:
+> O Amazon Bedrock oferece suporte a SDKs para serviços de tempo de execução. SDKs iOS e Android, bem como Java, JS, Python, CLI, .Net, Ruby, PHP, Go e CPP suportam entrada de texto e fala.
 
 Impressionante o que a IA nos respondeu sobre os dados coletados para a criação da comanda do bar, não foi? Perceba que a IA tirou suas próprias conclusões, pois a lei não especifica nada sobre dados de uma comanda de bar.
 
 E é isso que mais impressiona, a IA treinada com um simples PDF da lei, soube interpretar a lei corretamente e responder a pergunta sobre a comanda do bar. Sobre esse fato a lei diz o seguinte:
 
->Art. 6º As atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios: […] III - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados; […]
+> Art. 6º As atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios: […] III - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados; […]
 
 Note que ao descrever a situação, a IA entendeu que para o sistema de comandas os dados do cadastro prévio estava excedendo o necessário para a finalidade. Ou seja, a IA sabia quais dados eram necessários para o sistema de comanda, e confrontando com os dados do cadastro julgou, corretamente, a excessividade.
 
@@ -218,5 +218,3 @@ Abaixo, o código do vídeo, para consulta e reprodução:
     question = "Quem pode realizar o tratamento dos dados?"
     answer = wrapper_store_faiss.query(question=question, llm=llm)
     print(answer)
-
-.
